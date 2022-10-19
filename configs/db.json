@@ -1,0 +1,10 @@
+{
+    "host": "mysql.stevenelectric.icu",
+    "user": "JDBC",
+    "password": "testingJDBC",
+    "database": "edu_adventurepark",
+    "waitForConnections": true,
+    "connectionLimit": 5,
+    "queueLimit": 0,
+    "multipleStatements": false
+}

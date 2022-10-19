@@ -1,0 +1,28 @@
+{
+  "name": "test_sommersemester_js",
+  "version": "1.0.0",
+  "description": "Testbeispiel:\r [Teil 1](https://www3.lernplattform.schule.at/htlms/mod/assign/view.php?id=72789)\r [Teil 2](https://www3.lernplattform.schule.at/htlms/mod/assign/view.php?id=72876)",
+  "main": "main.js",
+  "scripts": {
+    "unit": "nodemon main.js",
+    "start": "node main.js",
+    "deploy": "npm install && node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.htl-klu.at/5257300802/test_sommersemester_js.git"
+  },
+  "author": "SJB",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "browserslist": [
+    "defaults"
+  ]
+}
